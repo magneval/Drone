@@ -1,0 +1,22 @@
+body {
+  background-color: white;
+}
+canvas {
+  width: 200px;
+  height: 200px;
+  border: 10px solid grey;
+}
+#leftJoystick {
+  position: absolute;
+  bottom:0px;
+  float:left;
+  left:0px;
+  background-color: green;
+}
+#rightJoystick {
+  background-color: red;
+  position: absolute;
+  float:right;
+  bottom:0px;
+  right:0px;
+}
