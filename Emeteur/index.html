@@ -3,7 +3,14 @@
     <title>Pilotage du drone</title>
   </head>
   <body>
-    <canvas id="leftJoystick" width="200" height="100" style="border:1px solid silver;">
+    <canvas id="leftJoystick" width="200" height="200" style="border:1px solid silver;">
     </canvas>
+    <script>
+    var c = document.getElementById("leftJoystick");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(100,100,100,0,2*Math.PI);
+    ctx.stroke();
+    </script> 
   </body>
 </html>
